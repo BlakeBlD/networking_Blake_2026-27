@@ -17,7 +17,7 @@ FetchContent_MakeAvailable(SFML)    # Makes sure SFML and its dependencies are a
 #---- File management & .exe creation ----#
 
 # Set variable SOURCE_FILES to hold names & locations of files that need to be compiled into the application
-set(SOURCE_FILES src/main.cpp src/Game.cpp src/Game.h "src/Tile.h" "src/Tile.cpp" "src/Piece.h" "src/Piece.cpp" "src/Player.h" "src/Player.cpp" "src/Board.h" "src/Board.cpp")  
+set(SOURCE_FILES src/main.cpp src/Game.cpp src/Game.h "src/Tile.h" "src/Tile.cpp" "src/Piece.h" "src/Piece.cpp" "src/Player.h" "src/Player.cpp" "src/Board.h" "src/Board.cpp" "src/Server.h" "src/Server.cpp" "src/Client.h" "src/Client.cpp" "src/Text.h" "src/Text.cpp")  
 
 # Name the application and tells compiler which source files to use (using SOURCE_FILES variable created above)
 add_executable(NETWORK_fox_n_hounds ${SOURCE_FILES})  
